@@ -145,7 +145,8 @@ class _QuestionsBodyState extends State<QuestionsBody> {
                         title: Text("Quiz Completed"),
                         content: Text("your score is $score"),
                         actions: [
-                          TextButton(
+                          ElevatedButton(
+                            
                             onPressed: () {
                               Navigator.pop(context);
                               setState(() {
@@ -154,7 +155,7 @@ class _QuestionsBodyState extends State<QuestionsBody> {
   widget.index = 0;
 });
                             },
-                            child: Text("ok",style: TextStyle(color: Colors.black),),
+                            child: Text("Restart",style: TextStyle(color: Colors.black),),
                           ),
                         ],
                       ),
