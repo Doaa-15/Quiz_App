@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/core/utils/model.dart';
+import 'package:quiz_app/model.dart';
 
 class QuestionsBody extends StatefulWidget {
   QuestionsBody({super.key, required this.index});
